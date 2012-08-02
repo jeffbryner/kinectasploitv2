@@ -1,0 +1,50 @@
+kinectasploit v2
+Jeff Bryner 7/2012
+as released at DEFCON20
+
+Kinectasploit is a blender 3d game environment using the 
+microsoft kinect and a bunch of security tools to hack into
+computers using gestures. 
+
+
+Videos of the environment are avaialble at http://p0wnlabs.com/defcon20
+
+The scenario requires a fairly specific setup including VMs
+with specific vulnerabilities, loads of tools, etc. Here's an attempt
+to outline what you need to play it: 
+
+1) blender (blender.org)
+2) microsoft kinect
+3) osceleton	(github; connects to the kinect and sends OSC joint data to blender)
+4) iwlist	(discovers access points)
+5) airomon	(creates an AP monitor port)
+6) airdump	(dumps AP packets to a pcap file)
+7) aircrack-ng	(cracks wep keys from the pcap file)
+8) pytwitter	(used to get timeline data from twitter while waiting for jobs to finish)
+9) snort	(used to alert you when you are noisyly hacking a network)
+10) ip route	(used to show what networks you are attached to and can scan)
+11) nmap 	(used to scan networks for victims)
+12) graphviz	(graphs nmaps traceroute output)
+13) nessus	(scans victims for vulns; should find an open share on the windows vm below)
+14) smbclient	(used by ettercap to retrieve a pcap file from the windows open share)
+15) ettercap	(rifles through the pcap file to retrieve creds)
+16) wget	(scans a server for acessible urls)
+17) sqlmap	(breaks into web systems to retrieve passwords)
+18) john the ripper	(cracks database hashes for creds that can be used in metasploit)
+19) metasploit	(uses psexec and nbd_server.rb to get a forensic block device on the windows vm)
+20) nbd-client	(connects your attacking linux machine to the victim windows vm)
+21) fls		(searches the nbd device for RECYCLER files)
+22) icat	(retrieves files from the nbd device)
+23) rifiuti	(searches the INFO2 file in RECYCLER for file information)
+24) a windows vm with an open smb share containing a pcap file with creds to:
+25) a linux vm running sqlol (or any vulnerable sqlinjectable web app) with creds to the above windows box
+26) a hypervisor capable of running the above vms (kvm works well)
+
+Complex, I know but that was the point ;-] to include many, many tools in a graphical, gesture-driven environment and have them
+useful enough to hack into a system and retrieve a file from the windows VM's RECYCLE bin folders.
+
+
+
+
+
+
