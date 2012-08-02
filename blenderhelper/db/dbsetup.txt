@@ -1,0 +1,42 @@
+#create a user
+createuser ksploit -P 
+
+#create a database
+createdb --owner=ksploit ksploit
+
+psql --dbname=ksploit
+
+#tables
+create table accesspoints (
+id SERIAL PRIMARY KEY,
+essid text,
+key text,
+channel int,
+bssid text);
+
+grant all on accesspoints to public;
+grant all on accesspoints_id_seq to public;
+
+
+create table loot (
+id SERIAL PRIMARY KEY,
+filepath text,
+file text,
+type text,
+data text,
+room text);
+
+grant all on loot to public;
+grant all on loot_id_seq to public;
+
+
+create table creds (
+id SERIAL PRIMARY KEY,
+username text,
+password text,
+hash text
+);
+
+grant all on creds to public;
+grant all on creds_id_seq to public;
+

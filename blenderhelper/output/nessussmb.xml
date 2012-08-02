@@ -1,0 +1,2533 @@
+<?xml version="1.0" ?>
+<NessusClientData_v2>
+<Policy>
+<policyName>ksploit</policyName>
+<policyComments></policyComments>
+<Preferences>
+<ServerPreferences>
+<preference>
+<name>max_simult_tcp_sessions</name>
+<value>unlimited</value>
+</preference>
+<preference>
+<name>plugin_set</name>
+<value>40887;29855;10859;42411;26919;10860;52459;10412;14274;10428;10431;11110;11457;18502;10400;16314;10180;10398;10395;26918;11011;10430;10449;11868;11777;18602;26917;35362;17662;56210;10785;48405;53503;23973;12028;26920;18585;56211;10396;10429;38689;10401;44401;11867;10456;11459;11460;10531;10426;47556;10335;10432;38912;11119;10404;50859;55286;44676;10397;10150;23974;48942;24271;10567;46742;32131;10427;10399;10413;11458;10394;10553;</value>
+</preference>
+<preference>
+<name>TARGET</name>
+<value>10.200.100.7</value>
+</preference>
+<preference>
+<name>throttle_scan</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>listen_address</name>
+<value>0.0.0.0</value>
+</preference>
+<preference>
+<name>slice_network_addresses</name>
+<value>no</value>
+</preference>
+<preference>
+<name>non_simult_ports</name>
+<value>139, 445, 3389</value>
+</preference>
+<preference>
+<name>max_checks</name>
+<value>5</value>
+</preference>
+<preference>
+<name>stop_scan_on_disconnect</name>
+<value>no</value>
+</preference>
+<preference>
+<name>report_crashes</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>host.max_simult_tcp_sessions</name>
+<value>unlimited</value>
+</preference>
+<preference>
+<name>xmlrpc_listen_port</name>
+<value>8834</value>
+</preference>
+<preference>
+<name>whoami</name>
+<value>nessus</value>
+</preference>
+<preference>
+<name>reverse_lookup</name>
+<value>no</value>
+</preference>
+<preference>
+<name>optimize_test</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>log_whole_attack</name>
+<value>no</value>
+</preference>
+<preference>
+<name>ssl_cipher_list</name>
+<value>strong</value>
+</preference>
+<preference>
+<name>cgi_path</name>
+<value>/cgi-bin:/scripts</value>
+</preference>
+<preference>
+<name>unscanned_closed</name>
+<value>no</value>
+</preference>
+<preference>
+<name>use_kernel_congestion_detection</name>
+<value>no</value>
+</preference>
+<preference>
+<name>listen_port</name>
+<value>1241</value>
+</preference>
+<preference>
+<name>auto_update</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>checks_read_timeout</name>
+<value>5</value>
+</preference>
+<preference>
+<name>plugins_timeout</name>
+<value>320</value>
+</preference>
+<preference>
+<name>auto_enable_dependencies</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>safe_checks</name>
+<value>no</value>
+</preference>
+<preference>
+<name>stop_scan_on_hang</name>
+<value>no</value>
+</preference>
+<preference>
+<name>allow_post_scan_editing</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>max_hosts</name>
+<value>100</value>
+</preference>
+<preference>
+<name>plugin_upload</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>reduce_connections_on_congestion</name>
+<value>no</value>
+</preference>
+<preference>
+<name>seq</name>
+<value>5892</value>
+</preference>
+<preference>
+<name>feed_type</name>
+<value>HomeFeed</value>
+</preference>
+<preference>
+<name>silent_dependencies</name>
+<value>yes</value>
+</preference>
+<preference>
+<name>port_range</name>
+<value>default</value>
+</preference>
+</ServerPreferences>
+<PluginsPreferences>
+<item>
+ <pluginName>Patch Management: WSUS Server Settings</pluginName>
+ <pluginId>57031</pluginId>
+<fullName>Patch Management: WSUS Server Settings[entry]:WSUS Server :</fullName>
+<preferenceName>WSUS Server :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: WSUS Server Settings</pluginName>
+ <pluginId>57031</pluginId>
+<fullName>Patch Management: WSUS Server Settings[entry]:WSUS Port :</fullName>
+<preferenceName>WSUS Port :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: WSUS Server Settings</pluginName>
+ <pluginId>57031</pluginId>
+<fullName>Patch Management: WSUS Server Settings[entry]:WSUS Username :</fullName>
+<preferenceName>WSUS Username :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: WSUS Server Settings</pluginName>
+ <pluginId>57031</pluginId>
+<fullName>Patch Management: WSUS Server Settings[password]:WSUS Password :</fullName>
+<preferenceName>WSUS Password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: WSUS Server Settings</pluginName>
+ <pluginId>57031</pluginId>
+<fullName>Patch Management: WSUS Server Settings[checkbox]:SSL :</fullName>
+<preferenceName>SSL :</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Wake-on-LAN</pluginName>
+ <pluginId>52616</pluginId>
+<fullName>Wake-on-LAN[file]:List of MAC addresses for Wake-on-LAN:</fullName>
+<preferenceName>List of MAC addresses for Wake-on-LAN:</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Wake-on-LAN</pluginName>
+ <pluginId>52616</pluginId>
+<fullName>Wake-on-LAN[entry]:Time to wait (in minutes) for the systems to boot:</fullName>
+<preferenceName>Time to wait (in minutes) for the systems to boot:</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>5</preferenceValues>
+<selectedValue>5</selectedValue>
+</item><item>
+ <pluginName>Web mirroring</pluginName>
+ <pluginId>10662</pluginId>
+<fullName>Web mirroring[entry]:Number of pages to mirror :</fullName>
+<preferenceName>Number of pages to mirror :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1000</preferenceValues>
+<selectedValue>1000</selectedValue>
+</item><item>
+ <pluginName>Web mirroring</pluginName>
+ <pluginId>10662</pluginId>
+<fullName>Web mirroring[entry]:Maximum depth :</fullName>
+<preferenceName>Maximum depth :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>6</preferenceValues>
+<selectedValue>6</selectedValue>
+</item><item>
+ <pluginName>Web mirroring</pluginName>
+ <pluginId>10662</pluginId>
+<fullName>Web mirroring[entry]:Start page :</fullName>
+<preferenceName>Start page :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/</preferenceValues>
+<selectedValue>/</selectedValue>
+</item><item>
+ <pluginName>Web mirroring</pluginName>
+ <pluginId>10662</pluginId>
+<fullName>Web mirroring[entry]:Excluded items regex :</fullName>
+<preferenceName>Excluded items regex :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/server_privileges\.php|logout</preferenceValues>
+<selectedValue>/server_privileges\.php|logout</selectedValue>
+</item><item>
+ <pluginName>Web mirroring</pluginName>
+ <pluginId>10662</pluginId>
+<fullName>Web mirroring[checkbox]:Follow dynamic pages :</fullName>
+<preferenceName>Follow dynamic pages :</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[checkbox]:Enable web applications tests</fullName>
+<preferenceName>Enable web applications tests</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[entry]:Maximum run time (min) :</fullName>
+<preferenceName>Maximum run time (min) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>60</preferenceValues>
+<selectedValue>60</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[checkbox]:Try all HTTP methods</fullName>
+<preferenceName>Try all HTTP methods</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[radio]:Combinations of arguments values</fullName>
+<preferenceName>Combinations of arguments values</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>one value;some pairs;all pairs (slower but efficient);some combinations;all combinations (extremely slow)</preferenceValues>
+<selectedValue>one value;some pairs;all pairs (slower but efficient);some combinations;all combinations (extremely slow)</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[checkbox]:HTTP Parameter Pollution</fullName>
+<preferenceName>HTTP Parameter Pollution</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[radio]:Stop at first flaw</fullName>
+<preferenceName>Stop at first flaw</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>per CGI;per port (quicker);per parameter (slow);look for all flaws (slower)</preferenceValues>
+<selectedValue>per CGI;per port (quicker);per parameter (slow);look for all flaws (slower)</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[checkbox]:Test embedded web servers</fullName>
+<preferenceName>Test embedded web servers</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Web Application Tests Settings</pluginName>
+ <pluginId>39471</pluginId>
+<fullName>Web Application Tests Settings[entry]:URL for Remote File Inclusion :</fullName>
+<preferenceName>URL for Remote File Inclusion :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>http://rfi.nessus.org/rfi.txt</preferenceValues>
+<selectedValue>http://rfi.nessus.org/rfi.txt</selectedValue>
+</item><item>
+ <pluginName>VMware SOAP API Settings</pluginName>
+ <pluginId>57395</pluginId>
+<fullName>VMware SOAP API Settings[entry]:VMware user name :</fullName>
+<preferenceName>VMware user name :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>VMware SOAP API Settings</pluginName>
+ <pluginId>57395</pluginId>
+<fullName>VMware SOAP API Settings[password]:VMware password (unsafe!) :</fullName>
+<preferenceName>VMware password (unsafe!) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>VMware SOAP API Settings</pluginName>
+ <pluginId>57395</pluginId>
+<fullName>VMware SOAP API Settings[checkbox]:Ignore SSL Certificate :</fullName>
+<preferenceName>Ignore SSL Certificate :</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>SMB Registry : Start the Registry Service during the scan</pluginName>
+ <pluginId>35703</pluginId>
+<fullName>SMB Registry : Start the Registry Service during the scan[checkbox]:Start the registry service during the scan</fullName>
+<preferenceName>Start the registry service during the scan</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>SMB Registry : Start the Registry Service during the scan</pluginName>
+ <pluginId>35703</pluginId>
+<fullName>SMB Registry : Start the Registry Service during the scan[checkbox]:Enable administrative shares during the scan</fullName>
+<preferenceName>Enable administrative shares during the scan</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[entry]:SSH user name :</fullName>
+<preferenceName>SSH user name :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>root</preferenceValues>
+<selectedValue>root</selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[password]:SSH password (unsafe!) :</fullName>
+<preferenceName>SSH password (unsafe!) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[file]:SSH public key to use :</fullName>
+<preferenceName>SSH public key to use :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[file]:SSH private key to use :</fullName>
+<preferenceName>SSH private key to use :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[password]:Passphrase for SSH key :</fullName>
+<preferenceName>Passphrase for SSH key :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[radio]:Elevate privileges with :</fullName>
+<preferenceName>Elevate privileges with :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Nothing;sudo;su;su+sudo;dzdo;pbrun;Cisco &apos;enable&apos;</preferenceValues>
+<selectedValue>Nothing;sudo;su;su+sudo;dzdo;pbrun;Cisco &apos;enable&apos;</selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[entry]:su login :</fullName>
+<preferenceName>su login :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[entry]:Escalation account :</fullName>
+<preferenceName>Escalation account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>root</preferenceValues>
+<selectedValue>root</selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[password]:Escalation password :</fullName>
+<preferenceName>Escalation password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[file]:SSH known_hosts file :</fullName>
+<preferenceName>SSH known_hosts file :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[entry]:Preferred SSH port :</fullName>
+<preferenceName>Preferred SSH port :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>22</preferenceValues>
+<selectedValue>22</selectedValue>
+</item><item>
+ <pluginName>SSH settings</pluginName>
+ <pluginId>14273</pluginId>
+<fullName>SSH settings[entry]:Client version :</fullName>
+<preferenceName>Client version :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>OpenSSH_5.0</preferenceValues>
+<selectedValue>OpenSSH_5.0</selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:Community name :</fullName>
+<preferenceName>Community name :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>public</preferenceValues>
+<selectedValue>public</selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:Community name (1) :</fullName>
+<preferenceName>Community name (1) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:Community name (2) :</fullName>
+<preferenceName>Community name (2) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:Community name (3) :</fullName>
+<preferenceName>Community name (3) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:UDP port :</fullName>
+<preferenceName>UDP port :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>161</preferenceValues>
+<selectedValue>161</selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[entry]:SNMPv3 user name :</fullName>
+<preferenceName>SNMPv3 user name :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[password]:SNMPv3 authentication password :</fullName>
+<preferenceName>SNMPv3 authentication password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[radio]:SNMPv3 authentication algorithm :</fullName>
+<preferenceName>SNMPv3 authentication algorithm :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>MD5;SHA1</preferenceValues>
+<selectedValue>MD5;SHA1</selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[password]:SNMPv3 privacy password :</fullName>
+<preferenceName>SNMPv3 privacy password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>SNMP settings</pluginName>
+ <pluginId>19762</pluginId>
+<fullName>SNMP settings[radio]:SNMPv3 privacy algorithm :</fullName>
+<preferenceName>SNMPv3 privacy algorithm :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>DES</preferenceValues>
+<selectedValue>DES</selectedValue>
+</item><item>
+ <pluginName>SMTP settings</pluginName>
+ <pluginId>11038</pluginId>
+<fullName>SMTP settings[entry]:Third party domain :</fullName>
+<preferenceName>Third party domain :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>example.com</preferenceValues>
+<selectedValue>example.com</selectedValue>
+</item><item>
+ <pluginName>SMTP settings</pluginName>
+ <pluginId>11038</pluginId>
+<fullName>SMTP settings[entry]:From address :</fullName>
+<preferenceName>From address :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>nobody@example.com</preferenceValues>
+<selectedValue>nobody@example.com</selectedValue>
+</item><item>
+ <pluginName>SMTP settings</pluginName>
+ <pluginId>11038</pluginId>
+<fullName>SMTP settings[entry]:To address :</fullName>
+<preferenceName>To address :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>postmaster@[AUTO_REPLACED_IP]</preferenceValues>
+<selectedValue>postmaster@[AUTO_REPLACED_IP]</selectedValue>
+</item><item>
+ <pluginName>SMB Use Domain SID to Enumerate Users</pluginName>
+ <pluginId>10399</pluginId>
+<fullName>SMB Use Domain SID to Enumerate Users[entry]:Start UID :</fullName>
+<preferenceName>Start UID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1000</preferenceValues>
+<selectedValue>1000</selectedValue>
+</item><item>
+ <pluginName>SMB Use Domain SID to Enumerate Users</pluginName>
+ <pluginId>10399</pluginId>
+<fullName>SMB Use Domain SID to Enumerate Users[entry]:End UID :</fullName>
+<preferenceName>End UID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1200</preferenceValues>
+<selectedValue>1200</selectedValue>
+</item><item>
+ <pluginName>SMB Scope</pluginName>
+ <pluginId>10917</pluginId>
+<fullName>SMB Scope[checkbox]:Request information about the domain</fullName>
+<preferenceName>Request information about the domain</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>SMB Use Host SID to Enumerate Local Users</pluginName>
+ <pluginId>10860</pluginId>
+<fullName>SMB Use Host SID to Enumerate Local Users[entry]:Start UID :</fullName>
+<preferenceName>Start UID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1000</preferenceValues>
+<selectedValue>1000</selectedValue>
+</item><item>
+ <pluginName>SMB Use Host SID to Enumerate Local Users</pluginName>
+ <pluginId>10860</pluginId>
+<fullName>SMB Use Host SID to Enumerate Local Users[entry]:End UID :</fullName>
+<preferenceName>End UID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1200</preferenceValues>
+<selectedValue>1200</selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Host :</fullName>
+<preferenceName>Host :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>services.shavlik.com</preferenceValues>
+<selectedValue>services.shavlik.com</selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Port :</fullName>
+<preferenceName>Port :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>443</preferenceValues>
+<selectedValue>443</selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Username :</fullName>
+<preferenceName>Username :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[password]:Password :</fullName>
+<preferenceName>Password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Domain :</fullName>
+<preferenceName>Domain :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:API path :</fullName>
+<preferenceName>API path :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/api/authenticationbroker/account/httpIssue.svc/</preferenceValues>
+<selectedValue>/api/authenticationbroker/account/httpIssue.svc/</selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Authentication realm :</fullName>
+<preferenceName>Authentication realm :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>https://services.shavlik.com/api/dataservices/v1r1/default.aspx</preferenceValues>
+<selectedValue>https://services.shavlik.com/api/dataservices/v1r1/default.aspx</selectedValue>
+</item><item>
+ <pluginName>Patch Management: VMware Go Server Settings</pluginName>
+ <pluginId>57026</pluginId>
+<fullName>Patch Management: VMware Go Server Settings[entry]:Service path :</fullName>
+<preferenceName>Service path :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/api/dataservices/v1r1/OData.svc/</preferenceValues>
+<selectedValue>/api/dataservices/v1r1/OData.svc/</selectedValue>
+</item><item>
+ <pluginName>Patch Management: SCCM Server Settings</pluginName>
+ <pluginId>57029</pluginId>
+<fullName>Patch Management: SCCM Server Settings[entry]:SCCM Server :</fullName>
+<preferenceName>SCCM Server :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: SCCM Server Settings</pluginName>
+ <pluginId>57029</pluginId>
+<fullName>Patch Management: SCCM Server Settings[entry]:SCCM Domain :</fullName>
+<preferenceName>SCCM Domain :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: SCCM Server Settings</pluginName>
+ <pluginId>57029</pluginId>
+<fullName>Patch Management: SCCM Server Settings[entry]:SCCM Username :</fullName>
+<preferenceName>SCCM Username :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: SCCM Server Settings</pluginName>
+ <pluginId>57029</pluginId>
+<fullName>Patch Management: SCCM Server Settings[password]:SCCM Password :</fullName>
+<preferenceName>SCCM Password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: Red Hat Satellite Server Settings</pluginName>
+ <pluginId>57063</pluginId>
+<fullName>Patch Management: Red Hat Satellite Server Settings[entry]:Red Hat Satellite server(s) [separated w/ semicolons] :</fullName>
+<preferenceName>Red Hat Satellite server(s) [separated w/ semicolons] :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: Red Hat Satellite Server Settings</pluginName>
+ <pluginId>57063</pluginId>
+<fullName>Patch Management: Red Hat Satellite Server Settings[entry]:Red Hat Satellite port(s) :</fullName>
+<preferenceName>Red Hat Satellite port(s) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>443</preferenceValues>
+<selectedValue>443</selectedValue>
+</item><item>
+ <pluginName>Patch Management: Red Hat Satellite Server Settings</pluginName>
+ <pluginId>57063</pluginId>
+<fullName>Patch Management: Red Hat Satellite Server Settings[entry]:Red Hat Satellite username(s) :</fullName>
+<preferenceName>Red Hat Satellite username(s) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Patch Management: Red Hat Satellite Server Settings</pluginName>
+ <pluginId>57063</pluginId>
+<fullName>Patch Management: Red Hat Satellite Server Settings[password]:Red Hat Satellite password(s) :</fullName>
+<preferenceName>Red Hat Satellite password(s) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Port scanners settings</pluginName>
+ <pluginId>33812</pluginId>
+<fullName>Port scanners settings[checkbox]:Check open TCP ports found by local port enumerators</fullName>
+<preferenceName>Check open TCP ports found by local port enumerators</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Port scanners settings</pluginName>
+ <pluginId>33812</pluginId>
+<fullName>Port scanners settings[checkbox]:Only run network port scanners if local port enumeration failed</fullName>
+<preferenceName>Only run network port scanners if local port enumeration failed</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[entry]:TCP ping destination port(s) :</fullName>
+<preferenceName>TCP ping destination port(s) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>built-in</preferenceValues>
+<selectedValue>built-in</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Do an ARP ping</fullName>
+<preferenceName>Do an ARP ping</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Do a TCP ping</fullName>
+<preferenceName>Do a TCP ping</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Do an ICMP ping</fullName>
+<preferenceName>Do an ICMP ping</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[entry]:Number of retries (ICMP) :</fullName>
+<preferenceName>Number of retries (ICMP) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>2</preferenceValues>
+<selectedValue>2</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Do an applicative UDP ping (DNS,RPC...)</fullName>
+<preferenceName>Do an applicative UDP ping (DNS,RPC...)</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Make the dead hosts appear in the report</fullName>
+<preferenceName>Make the dead hosts appear in the report</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Log live hosts in the report</fullName>
+<preferenceName>Log live hosts in the report</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Test the local Nessus host</fullName>
+<preferenceName>Test the local Nessus host</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Ping the remote host</pluginName>
+ <pluginId>10180</pluginId>
+<fullName>Ping the remote host[checkbox]:Fast network discovery</fullName>
+<preferenceName>Fast network discovery</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Oracle Settings</pluginName>
+ <pluginId>22076</pluginId>
+<fullName>Oracle Settings[entry]:Oracle SID :</fullName>
+<preferenceName>Oracle SID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Oracle Settings</pluginName>
+ <pluginId>22076</pluginId>
+<fullName>Oracle Settings[checkbox]:Test default accounts (slow)</fullName>
+<preferenceName>Test default accounts (slow)</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>News Server (NNTP) Information Disclosure</pluginName>
+ <pluginId>11033</pluginId>
+<fullName>News Server (NNTP) Information Disclosure[entry]:From address :</fullName>
+<preferenceName>From address :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>Nobody &lt;nobody@example.com&gt;</preferenceValues>
+<selectedValue>Nobody &lt;nobody@example.com&gt;</selectedValue>
+</item><item>
+ <pluginName>News Server (NNTP) Information Disclosure</pluginName>
+ <pluginId>11033</pluginId>
+<fullName>News Server (NNTP) Information Disclosure[entry]:Test group name regex :</fullName>
+<preferenceName>Test group name regex :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>f[a-z]\.tests?</preferenceValues>
+<selectedValue>f[a-z]\.tests?</selectedValue>
+</item><item>
+ <pluginName>News Server (NNTP) Information Disclosure</pluginName>
+ <pluginId>11033</pluginId>
+<fullName>News Server (NNTP) Information Disclosure[entry]:Max crosspost :</fullName>
+<preferenceName>Max crosspost :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>7</preferenceValues>
+<selectedValue>7</selectedValue>
+</item><item>
+ <pluginName>News Server (NNTP) Information Disclosure</pluginName>
+ <pluginId>11033</pluginId>
+<fullName>News Server (NNTP) Information Disclosure[checkbox]:Local distribution</fullName>
+<preferenceName>Local distribution</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>News Server (NNTP) Information Disclosure</pluginName>
+ <pluginId>11033</pluginId>
+<fullName>News Server (NNTP) Information Disclosure[checkbox]:No archive</fullName>
+<preferenceName>No archive</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Nessus TCP scanner</pluginName>
+ <pluginId>10335</pluginId>
+<fullName>Nessus TCP scanner[radio]:Firewall detection :</fullName>
+<preferenceName>Firewall detection :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Automatic (normal);Disabled (softer);Do not detect RST rate limitation (soft);Ignore closed ports (aggressive)</preferenceValues>
+<selectedValue>Automatic (normal)</selectedValue>
+</item><item>
+ <pluginName>Nessus SYN scanner</pluginName>
+ <pluginId>11219</pluginId>
+<fullName>Nessus SYN scanner[radio]:Firewall detection :</fullName>
+<preferenceName>Firewall detection :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Automatic (normal);Disabled (softer);Do not detect RST rate limitation (soft);Ignore closed ports (aggressive)</preferenceValues>
+<selectedValue>Automatic (normal);Disabled (softer);Do not detect RST rate limitation (soft);Ignore closed ports (aggressive)</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:HTTP account :</fullName>
+<preferenceName>HTTP account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:HTTP password (sent in clear) :</fullName>
+<preferenceName>HTTP password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:NNTP account :</fullName>
+<preferenceName>NNTP account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:NNTP password (sent in clear) :</fullName>
+<preferenceName>NNTP password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:FTP account :</fullName>
+<preferenceName>FTP account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>anonymous</preferenceValues>
+<selectedValue>anonymous</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:FTP password (sent in clear) :</fullName>
+<preferenceName>FTP password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues>nessus@nessus.org</preferenceValues>
+<selectedValue>*********</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:FTP writeable directory :</fullName>
+<preferenceName>FTP writeable directory :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/incoming</preferenceValues>
+<selectedValue>/incoming</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:POP2 account :</fullName>
+<preferenceName>POP2 account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:POP2 password (sent in clear) :</fullName>
+<preferenceName>POP2 password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:POP3 account :</fullName>
+<preferenceName>POP3 account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:POP3 password (sent in clear) :</fullName>
+<preferenceName>POP3 password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:IMAP account :</fullName>
+<preferenceName>IMAP account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:IMAP password (sent in clear) :</fullName>
+<preferenceName>IMAP password (sent in clear) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:SMB account :</fullName>
+<preferenceName>SMB account :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:SMB password :</fullName>
+<preferenceName>SMB password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:SMB domain (optional) :</fullName>
+<preferenceName>SMB domain (optional) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[radio]:SMB password type :</fullName>
+<preferenceName>SMB password type :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Password;LM Hash;NTLM Hash</preferenceValues>
+<selectedValue>Password</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB account (1) :</fullName>
+<preferenceName>Additional SMB account (1) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:Additional SMB password (1) :</fullName>
+<preferenceName>Additional SMB password (1) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB domain (optional) (1) :</fullName>
+<preferenceName>Additional SMB domain (optional) (1) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB account (2) :</fullName>
+<preferenceName>Additional SMB account (2) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:Additional SMB password (2) :</fullName>
+<preferenceName>Additional SMB password (2) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB domain (optional) (2) :</fullName>
+<preferenceName>Additional SMB domain (optional) (2) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB account (3) :</fullName>
+<preferenceName>Additional SMB account (3) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[password]:Additional SMB password (3) :</fullName>
+<preferenceName>Additional SMB password (3) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[entry]:Additional SMB domain (optional) (3) :</fullName>
+<preferenceName>Additional SMB domain (optional) (3) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[checkbox]:Never send SMB credentials in clear text</fullName>
+<preferenceName>Never send SMB credentials in clear text</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Login configurations</pluginName>
+ <pluginId>10870</pluginId>
+<fullName>Login configurations[checkbox]:Only use NTLMv2</fullName>
+<preferenceName>Only use NTLMv2</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration</pluginName>
+ <pluginId>58038</pluginId>
+<fullName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration[entry]:LDAP user :</fullName>
+<preferenceName>LDAP user :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration</pluginName>
+ <pluginId>58038</pluginId>
+<fullName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration[password]:LDAP password :</fullName>
+<preferenceName>LDAP password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration</pluginName>
+ <pluginId>58038</pluginId>
+<fullName>LDAP &apos;Domain Admins&apos; Group Membership Enumeration[entry]:Max results :</fullName>
+<preferenceName>Max results :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>1000</preferenceValues>
+<selectedValue>1000</selectedValue>
+</item><item>
+ <pluginName>Kerberos configuration</pluginName>
+ <pluginId>17351</pluginId>
+<fullName>Kerberos configuration[entry]:Kerberos Key Distribution Center (KDC) :</fullName>
+<preferenceName>Kerberos Key Distribution Center (KDC) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Kerberos configuration</pluginName>
+ <pluginId>17351</pluginId>
+<fullName>Kerberos configuration[entry]:Kerberos KDC Port :</fullName>
+<preferenceName>Kerberos KDC Port :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>88</preferenceValues>
+<selectedValue>88</selectedValue>
+</item><item>
+ <pluginName>Kerberos configuration</pluginName>
+ <pluginId>17351</pluginId>
+<fullName>Kerberos configuration[radio]:Kerberos KDC Transport :</fullName>
+<preferenceName>Kerberos KDC Transport :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>udp;tcp</preferenceValues>
+<selectedValue>udp;tcp</selectedValue>
+</item><item>
+ <pluginName>Kerberos configuration</pluginName>
+ <pluginId>17351</pluginId>
+<fullName>Kerberos configuration[entry]:Kerberos Realm (SSH only) :</fullName>
+<preferenceName>Kerberos Realm (SSH only) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>IBM iSeries Credentials</pluginName>
+ <pluginId>57861</pluginId>
+<fullName>IBM iSeries Credentials[entry]:Login :</fullName>
+<preferenceName>Login :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>IBM iSeries Credentials</pluginName>
+ <pluginId>57861</pluginId>
+<fullName>IBM iSeries Credentials[password]:Password :</fullName>
+<preferenceName>Password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Login page :</fullName>
+<preferenceName>Login page :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>/</preferenceValues>
+<selectedValue>/</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Login form :</fullName>
+<preferenceName>Login form :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Login form fields :</fullName>
+<preferenceName>Login form fields :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>user=%USER%&amp;pass=%PASS%</preferenceValues>
+<selectedValue>user=%USER%&amp;pass=%PASS%</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[radio]:Login form method :</fullName>
+<preferenceName>Login form method :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>POST;GET</preferenceValues>
+<selectedValue>POST;GET</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[checkbox]:Automated login page search</fullName>
+<preferenceName>Automated login page search</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Re-authenticate delay (seconds) :</fullName>
+<preferenceName>Re-authenticate delay (seconds) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Check authentication on page :</fullName>
+<preferenceName>Check authentication on page :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Follow 30x redirections (# of levels) :</fullName>
+<preferenceName>Follow 30x redirections (# of levels) :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>2</preferenceValues>
+<selectedValue>2</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[entry]:Authenticated regex :</fullName>
+<preferenceName>Authenticated regex :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[checkbox]:Invert test (disconnected if regex matches)</fullName>
+<preferenceName>Invert test (disconnected if regex matches)</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[checkbox]:Match regex on HTTP headers</fullName>
+<preferenceName>Match regex on HTTP headers</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[checkbox]:Case insensitive regex</fullName>
+<preferenceName>Case insensitive regex</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>HTTP login page</pluginName>
+ <pluginId>11149</pluginId>
+<fullName>HTTP login page[checkbox]:Abort web application tests if login fails</fullName>
+<preferenceName>Abort web application tests if login fails</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>HTTP cookies import</pluginName>
+ <pluginId>42893</pluginId>
+<fullName>HTTP cookies import[file]:Cookies file :</fullName>
+<preferenceName>Cookies file :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[checkbox]:Probe services on every port</fullName>
+<preferenceName>Probe services on every port</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>yes</preferenceValues>
+<selectedValue>yes</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[checkbox]:Do not log in with user accounts not specified in the policy</fullName>
+<preferenceName>Do not log in with user accounts not specified in the policy</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[checkbox]:Enable CGI scanning</fullName>
+<preferenceName>Enable CGI scanning</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[radio]:Network type</fullName>
+<preferenceName>Network type</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Mixed (use RFC 1918);Private LAN;Public WAN (Internet)</preferenceValues>
+<selectedValue>Mixed (use RFC 1918);Private LAN;Public WAN (Internet)</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[checkbox]:Enable experimental scripts</fullName>
+<preferenceName>Enable experimental scripts</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[checkbox]:Thorough tests (slow)</fullName>
+<preferenceName>Thorough tests (slow)</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[radio]:Report verbosity</fullName>
+<preferenceName>Report verbosity</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Normal;Quiet;Verbose</preferenceValues>
+<selectedValue>Normal;Quiet;Verbose</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[radio]:Report paranoia</fullName>
+<preferenceName>Report paranoia</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Normal;Avoid false alarms;Paranoid (more false alarms)</preferenceValues>
+<selectedValue>Normal;Avoid false alarms;Paranoid (more false alarms)</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[entry]:HTTP User-Agent</fullName>
+<preferenceName>HTTP User-Agent</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)</preferenceValues>
+<selectedValue>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)</selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[file]:SSL certificate to use :</fullName>
+<preferenceName>SSL certificate to use :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[file]:SSL CA to trust :</fullName>
+<preferenceName>SSL CA to trust :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[file]:SSL key to use :</fullName>
+<preferenceName>SSL key to use :</preferenceName>
+<preferenceType>file</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Global variable settings</pluginName>
+ <pluginId>12288</pluginId>
+<fullName>Global variable settings[password]:SSL password for SSL key :</fullName>
+<preferenceName>SSL password for SSL key :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Service Detection</pluginName>
+ <pluginId>22964</pluginId>
+<fullName>Service Detection[radio]:Test SSL based services</fullName>
+<preferenceName>Test SSL based services</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Known SSL ports;All;None</preferenceValues>
+<selectedValue>Known SSL ports</selectedValue>
+</item><item>
+ <pluginName>Do not scan fragile devices</pluginName>
+ <pluginId>22481</pluginId>
+<fullName>Do not scan fragile devices[checkbox]:Scan Network Printers</fullName>
+<preferenceName>Scan Network Printers</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Do not scan fragile devices</pluginName>
+ <pluginId>22481</pluginId>
+<fullName>Do not scan fragile devices[checkbox]:Scan Novell Netware hosts</fullName>
+<preferenceName>Scan Novell Netware hosts</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[entry]:Login :</fullName>
+<preferenceName>Login :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[password]:Password :</fullName>
+<preferenceName>Password :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[radio]:DB Type :</fullName>
+<preferenceName>DB Type :</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Oracle;SQL Server;MySQL;DB2;Informix/DRDA;PostgreSQL</preferenceValues>
+<selectedValue>Oracle</selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[entry]:Database SID :</fullName>
+<preferenceName>Database SID :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[entry]:Database port to use :</fullName>
+<preferenceName>Database port to use :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[radio]:Oracle auth type:</fullName>
+<preferenceName>Oracle auth type:</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>NORMAL;SYSOPER;SYSDBA</preferenceValues>
+<selectedValue>NORMAL</selectedValue>
+</item><item>
+ <pluginName>Database settings</pluginName>
+ <pluginId>33815</pluginId>
+<fullName>Database settings[radio]:SQL Server auth type:</fullName>
+<preferenceName>SQL Server auth type:</preferenceName>
+<preferenceType>radio</preferenceType>
+<preferenceValues>Windows;SQL</preferenceValues>
+<selectedValue>Windows</selectedValue>
+</item><item>
+ <pluginName>Cleartext protocols settings</pluginName>
+ <pluginId>21744</pluginId>
+<fullName>Cleartext protocols settings[entry]:User name :</fullName>
+<preferenceName>User name :</preferenceName>
+<preferenceType>entry</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Cleartext protocols settings</pluginName>
+ <pluginId>21744</pluginId>
+<fullName>Cleartext protocols settings[password]:Password (unsafe!) :</fullName>
+<preferenceName>Password (unsafe!) :</preferenceName>
+<preferenceType>password</preferenceType>
+<preferenceValues></preferenceValues>
+<selectedValue></selectedValue>
+</item><item>
+ <pluginName>Cleartext protocols settings</pluginName>
+ <pluginId>21744</pluginId>
+<fullName>Cleartext protocols settings[checkbox]:Try to perform patch level checks over telnet</fullName>
+<preferenceName>Try to perform patch level checks over telnet</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Cleartext protocols settings</pluginName>
+ <pluginId>21744</pluginId>
+<fullName>Cleartext protocols settings[checkbox]:Try to perform patch level checks over rsh</fullName>
+<preferenceName>Try to perform patch level checks over rsh</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item><item>
+ <pluginName>Cleartext protocols settings</pluginName>
+ <pluginId>21744</pluginId>
+<fullName>Cleartext protocols settings[checkbox]:Try to perform patch level checks over rexec</fullName>
+<preferenceName>Try to perform patch level checks over rexec</preferenceName>
+<preferenceType>checkbox</preferenceType>
+<preferenceValues>no</preferenceValues>
+<selectedValue>no</selectedValue>
+</item></PluginsPreferences>
+</Preferences>
+<FamilySelection>
+<FamilyItem>
+<FamilyName>MacOS X Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>DNS</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Gain a shell remotely</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Solaris Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Port scanners</FamilyName>
+<Status>mixed</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Web Servers</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>SMTP problems</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Service detection</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>CGI abuses : XSS</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Mandriva Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Databases</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Debian Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Denial of Service</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Default Unix Accounts</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Settings</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>HP-UX Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Backdoors</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>VMware ESX Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>SCADA</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>General</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Red Hat Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>FreeBSD Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>CGI abuses</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Windows : User management</FamilyName>
+<Status>mixed</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Netware</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Peer-To-Peer File Sharing</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Slackware Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>SNMP</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Fedora Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Gentoo Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Ubuntu Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Misc.</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>FTP</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Firewalls</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Windows : Microsoft Bulletins</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Junos Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Windows</FamilyName>
+<Status>mixed</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>Policy Compliance</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>SuSE Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>RPC</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>CentOS Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>CISCO</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+<FamilyItem>
+<FamilyName>AIX Local Security Checks</FamilyName>
+<Status>disabled</Status>
+</FamilyItem>
+</FamilySelection>
+<IndividualPluginSelection>
+<PluginItem><PluginId>10150</PluginId>
+<PluginName>Windows NetBIOS / SMB Remote Host Information Disclosure</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>48405</PluginId>
+<PluginName>MS10-054: Vulnerabilities in SMB Server Could Allow Remote Code Execution (982214) (remote check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>18585</PluginId>
+<PluginName>Microsoft Windows SMB Service Enumeration via \srvsvc</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10553</PluginId>
+<PluginName>Microsoft Windows SMB Registry : WinVNC&apos;s Key Permissions</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>12028</PluginId>
+<PluginName>Microsoft Windows SMB : WindowsUpdate Disabled</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10394</PluginId>
+<PluginName>Microsoft Windows SMB Log In Possible</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10427</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Registry HKLM_LOCAL_MACHINE Permissions</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>24271</PluginId>
+<PluginName>SMB Shares File Enumeration (via WMI)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>47556</PluginId>
+<PluginName>MS10-012: Vulnerabilities in SMB Could Allow Remote Code Execution (971468) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10412</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Autologon Enabled</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>18502</PluginId>
+<PluginName>MS05-027: Vulnerability in SMB Could Allow Remote Code Execution (896422) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10449</PluginId>
+<PluginName>Microsoft Windows SMB Registry : SFCDisable Key Permission Weakness</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10859</PluginId>
+<PluginName>Microsoft Windows SMB LsaQueryInformationPolicy Function SID Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>26920</PluginId>
+<PluginName>Microsoft Windows SMB NULL Session Authentication</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>38689</PluginId>
+<PluginName>Microsoft Windows SMB Last Logged On User Disclosure</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10567</PluginId>
+<PluginName>Microsoft Windows SMB Registry : NT RAS Administration Registry Key Permission Weakness Local Privilege Escalation</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>44401</PluginId>
+<PluginName>Microsoft Windows SMB Service Config Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>14274</PluginId>
+<PluginName>Nessus SNMP Scanner</PluginName>
+<Family>Port scanners</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10429</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Winlogon Key Permission Weakness</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>46742</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Enumerate the list of SNMP communities</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11868</PluginId>
+<PluginName>Microsoft Windows SMB Registry : SNMP Registry Key Permission Weakness Local Privilege Escalation</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10395</PluginId>
+<PluginName>Microsoft Windows SMB Shares Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>52459</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Win 7 / Server 2008 R2 Service Pack Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10432</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Key Permissions Path Subversion Local Privilege Escalation</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>56210</PluginId>
+<PluginName>Microsoft Windows SMB LsaQueryInformationPolicy Function SID Enumeration Without Credentials</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>50859</PluginId>
+<PluginName>Microsoft Windows SMB : WSUS Client Configured</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11460</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Classic Logon Screen</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10785</PluginId>
+<PluginName>Microsoft Windows SMB NativeLanManager Remote System Information Disclosure</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11457</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Winlogon Cached Password Weakness</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>18602</PluginId>
+<PluginName>Microsoft Windows SMB svcctl MSRPC Interface SCM Service Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10180</PluginId>
+<PluginName>Ping the remote host</PluginName>
+<Family>Port scanners</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11119</PluginId>
+<PluginName>Microsoft Windows SMB Registry : XP Service Pack Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10413</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Remote PDC/BDC Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>29855</PluginId>
+<PluginName>MS07-063: Vulnerability in SMBv2 Could Allow Remote Code Execution (942624) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11011</PluginId>
+<PluginName>Microsoft Windows SMB Service Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10401</PluginId>
+<PluginName>Microsoft Windows SMB Registry : NT4 Service Pack Version Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>53503</PluginId>
+<PluginName>MS11-020: Vulnerability in SMB Server Could Allow Remote Code Execution (2508429) (remote check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10426</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Schedule Key Permission Weakness Local Privilege Escalation</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10860</PluginId>
+<PluginName>SMB Use Host SID to Enumerate Local Users</PluginName>
+<Family>Windows : User management</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10430</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Key Permission Weakness Admin Privilege Esclation</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>26918</PluginId>
+<PluginName>Microsoft Windows SMB Blank Administrator Password</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11458</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Dial In Enabled</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10335</PluginId>
+<PluginName>Nessus TCP scanner</PluginName>
+<Family>Port scanners</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>40887</PluginId>
+<PluginName>MS09-050: Microsoft Windows SMB2 _Smb2ValidateProviderCallback() Vulnerability (975497) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11867</PluginId>
+<PluginName>Microsoft Windows SMB Registry : NT MTS Package Administration Registry Key Permission Weakness</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11459</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Last Logged User Name Disclosure</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>48942</PluginId>
+<PluginName>Microsoft Windows SMB Registry : OS Version and Processor Architecture</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10531</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Windows 2000 Service Pack Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10404</PluginId>
+<PluginName>Microsoft Windows SMB Guessable User Credentials</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10456</PluginId>
+<PluginName>Microsoft Windows SMB Service Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11110</PluginId>
+<PluginName>MS02-045: Microsoft Windows SMB Protocol SMB_COM_TRANSACTION Packet Remote Overflow DoS (326830) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>56211</PluginId>
+<PluginName>SMB Use Host SID to Enumerate Local Users Without Credentials</PluginName>
+<Family>Windows : User management</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10400</PluginId>
+<PluginName>Microsoft Windows SMB Registry Remotely Accessible</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>44676</PluginId>
+<PluginName>SMB Insecurely Configured Service</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10399</PluginId>
+<PluginName>SMB Use Domain SID to Enumerate Users</PluginName>
+<Family>Windows : User management</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>17662</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Windows 2003 Server Service Pack Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10397</PluginId>
+<PluginName>Microsoft Windows SMB LanMan Pipe Server Listing Disclosure</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>35362</PluginId>
+<PluginName>MS09-001: Microsoft Windows SMB Vulnerabilities Remote Code Execution (958687) (uncredentialed check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>26917</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Nessus Cannot Access the Windows Registry</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>38912</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Vista / Server 2008 Service Pack Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>11777</PluginId>
+<PluginName>Microsoft Windows SMB Share Hosting Copyrighted Material</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10398</PluginId>
+<PluginName>Microsoft Windows SMB LsaQueryInformationPolicy Function NULL Session Domain SID Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>16314</PluginId>
+<PluginName>Microsoft Windows SMB : Suspicious Software Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>42411</PluginId>
+<PluginName>Microsoft Windows SMB Shares Unprivileged Access</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>23974</PluginId>
+<PluginName>Microsoft Windows SMB Share Hosting Office Files</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10396</PluginId>
+<PluginName>Microsoft Windows SMB Shares Access</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10431</PluginId>
+<PluginName>Microsoft Windows SMB Registry : Winreg Registry Key Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>23973</PluginId>
+<PluginName>SMB Share Files Enumeration</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>10428</PluginId>
+<PluginName>Microsoft Windows SMB Fully Accessible Registry Detection</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>26919</PluginId>
+<PluginName>Microsoft Windows SMB Guest Account Local User Access</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>55286</PluginId>
+<PluginName>MS11-048: Vulnerability in SMB Server Could Allow Denial of Service (2536275) (remote check)</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem><PluginItem><PluginId>32131</PluginId>
+<PluginName>Cisco Security Agent for Microsoft Windows Crafted SMB Packet Remote Overflow</PluginName>
+<Family>Windows</Family>
+<Status>enabled</Status>
+</PluginItem></IndividualPluginSelection>
+</Policy>
+<Report name="smb2" xmlns:cm="http://www.nessus.org/cm">
+<ReportHost name="10.200.100.7"><HostProperties>
+<tag name="HOST_END">Sun Jul  8 13:50:10 2012</tag>
+<tag name="system-type">general-purpose</tag>
+<tag name="operating-system">Microsoft Windows XP Service Pack 2
+Microsoft Windows XP Service Pack 3</tag>
+<tag name="netbios-name">WINXP-95C9409AB</tag>
+<tag name="host-ip">10.200.100.7</tag>
+<tag name="HOST_START">Sun Jul  8 13:49:21 2012</tag>
+</HostProperties>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="4" pluginID="48405" pluginName="MS10-054: Vulnerabilities in SMB Server Could Allow Remote Code Execution (982214) (remote check)" pluginFamily="Windows">
+<bid>42224</bid>
+<bid>42263</bid>
+<bid>42267</bid>
+<cve>CVE-2010-2550</cve>
+<cve>CVE-2010-2551</cve>
+<cve>CVE-2010-2552</cve>
+<cvss_base_score>10.0</cvss_base_score>
+<cvss_temporal_score>7.8</cvss_temporal_score>
+<cvss_temporal_vector>CVSS2#E:POC/RL:OF/RC:C</cvss_temporal_vector>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C</cvss_vector>
+<description>The remote host is affected by several vulnerabilities in the SMB server that may allow an attacker to execute arbitrary code or perform a denial of service against the remote host.  These vulnerabilities depend on access to a shared drive, but do not necessarily require credentials.</description>
+<edb-id>14607</edb-id>
+<exploit_available>true</exploit_available>
+<exploit_framework_core>true</exploit_framework_core>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_pool_overflow.nasl</fname>
+<iava>2010-A-0110</iava>
+<msft>MS10-054</msft>
+<osvdb>66974</osvdb>
+<osvdb>66975</osvdb>
+<osvdb>66976</osvdb>
+<patch_publication_date>2010/08/10</patch_publication_date>
+<plugin_modification_date>2012/03/09</plugin_modification_date>
+<plugin_name>MS10-054: Vulnerabilities in SMB Server Could Allow Remote Code Execution (982214) (remote check)</plugin_name>
+<plugin_publication_date>2010/08/23</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Critical</risk_factor>
+<solution>Microsoft has released a set of patches for Windows XP, Vista, 2008, 7, and 2008 R2 :
+
+http://technet.microsoft.com/en-us/security/bulletin/MS10-054</solution>
+<stig_severity>I</stig_severity>
+<synopsis>It is possible to execute arbitrary code on the remote Windows host due to flaws in its SMB implementation.</synopsis>
+<vuln_publication_date>2010/08/10</vuln_publication_date>
+<xref>OSVDB:66974</xref>
+<xref>OSVDB:66975</xref>
+<xref>OSVDB:66976</xref>
+<xref>EDB-ID:14607</xref>
+<xref>IAVA:2010-A-0110</xref>
+<xref>MSFT:MS10-054</xref>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="4" pluginID="47556" pluginName="MS10-012: Vulnerabilities in SMB Could Allow Remote Code Execution (971468) (uncredentialed check)" pluginFamily="Windows">
+<bid>38049</bid>
+<bid>38051</bid>
+<bid>38054</bid>
+<bid>38085</bid>
+<cve>CVE-2010-0020</cve>
+<cve>CVE-2010-0021</cve>
+<cve>CVE-2010-0022</cve>
+<cve>CVE-2010-0231</cve>
+<cvss_base_score>10.0</cvss_base_score>
+<cvss_temporal_score>7.8</cvss_temporal_score>
+<cvss_temporal_vector>CVSS2#E:POC/RL:OF/RC:C</cvss_temporal_vector>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C</cvss_vector>
+<cwe>310</cwe>
+<cwe>264</cwe>
+<description>The remote host is affected by several vulnerabilities in the SMB server that may allow an attacker to execute arbitrary code or perform a denial of service against the remote host. 
+
+These vulnerabilities depend on access to a shared drive, but do not necessarily require credentials.</description>
+<exploit_available>true</exploit_available>
+<exploit_framework_core>true</exploit_framework_core>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_kb971468.nasl</fname>
+<msft>MS10-012</msft>
+<osvdb>62253</osvdb>
+<osvdb>62254</osvdb>
+<osvdb>62255</osvdb>
+<osvdb>62256</osvdb>
+<patch_publication_date>2010/02/09</patch_publication_date>
+<plugin_modification_date>2012/06/14</plugin_modification_date>
+<plugin_name>MS10-012: Vulnerabilities in SMB Could Allow Remote Code Execution (971468) (uncredentialed check)</plugin_name>
+<plugin_publication_date>2010/09/13</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Critical</risk_factor>
+<solution>Microsoft has released a set of patches for Windows 2000, XP, 2003, Vista, 2008, 7, and 2008 R2 :
+
+http://technet.microsoft.com/en-us/security/bulletin/MS10-012</solution>
+<synopsis>It is possible to execute arbitrary code on the remote Windows host due to flaws in its SMB implementation.</synopsis>
+<vuln_publication_date>2010/02/09</vuln_publication_date>
+<xref>OSVDB:62253</xref>
+<xref>OSVDB:62254</xref>
+<xref>OSVDB:62255</xref>
+<xref>OSVDB:62256</xref>
+<xref>MSFT:MS10-012</xref>
+<xref>CWE:310</xref>
+<xref>CWE:264</xref>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="4" pluginID="53503" pluginName="MS11-020: Vulnerability in SMB Server Could Allow Remote Code Execution (2508429) (remote check)" pluginFamily="Windows">
+<bid>47198</bid>
+<cve>CVE-2011-0661</cve>
+<cvss_base_score>10.0</cvss_base_score>
+<cvss_temporal_score>7.4</cvss_temporal_score>
+<cvss_temporal_vector>CVSS2#E:U/RL:OF/RC:C</cvss_temporal_vector>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C</cvss_vector>
+<description>The remote host is affected by a vulnerability in the SMB server that may allow an attacker to execute arbitrary code or perform a denial of service against the remote host.  This vulnerability depends on access to a Windows file share, but does not necessarily require credentials.</description>
+<exploit_available>false</exploit_available>
+<exploitability_ease>No known exploits are available</exploitability_ease>
+<fname>smb_kb2508429.nasl</fname>
+<iava>2011-A-0050</iava>
+<msft>MS11-020</msft>
+<osvdb>71781</osvdb>
+<patch_publication_date>2011/04/12</patch_publication_date>
+<plugin_modification_date>2012/03/08</plugin_modification_date>
+<plugin_name>MS11-020: Vulnerability in SMB Server Could Allow Remote Code Execution (2508429) (remote check)</plugin_name>
+<plugin_publication_date>2011/04/20</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Critical</risk_factor>
+<solution>Microsoft has released a set of patches for Windows XP, Vista, 2008, 7, and 2008 R2 :
+
+http://technet.microsoft.com/en-us/security/bulletin/ms11-020</solution>
+<stig_severity>I</stig_severity>
+<synopsis>It is possible to execute arbitrary code on the remote Windows host due to flaws in its SMB implementation.</synopsis>
+<vuln_publication_date>2011/04/12</vuln_publication_date>
+<xref>OSVDB:71781</xref>
+<xref>IAVA:2011-A-0050</xref>
+<xref>MSFT:MS11-020</xref>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="3" pluginID="42411" pluginName="Microsoft Windows SMB Shares Unprivileged Access" pluginFamily="Windows">
+<bid>8026</bid>
+<cve>CVE-1999-0519</cve>
+<cve>CVE-1999-0520</cve>
+<cvss_base_score>7.5</cvss_base_score>
+<cvss_temporal_score>7.5</cvss_temporal_score>
+<cvss_temporal_vector>CVSS2#E:H/RL:U/RC:ND</cvss_temporal_vector>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:P/I:P/A:P</cvss_vector>
+<description>The remote has one or more Windows shares that can be accessed through the network with the given credentials. 
+
+Depending on the share rights, it may allow an attacker to read/write confidential data.</description>
+<exploit_available>true</exploit_available>
+<exploitability_ease>No exploit is required</exploitability_ease>
+<fname>smb_accessible_shares_unpriv.nasl</fname>
+<osvdb>299</osvdb>
+<plugin_modification_date>2011/03/27</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Shares Unprivileged Access</plugin_name>
+<plugin_publication_date>2009/11/06</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>High</risk_factor>
+<solution>To restrict access under Windows, open Explorer, do a right click on each share, go to the &apos;sharing&apos; tab, and click on &apos;permissions&apos;.</solution>
+<synopsis>It is possible to access a network share.</synopsis>
+<vuln_publication_date>1999/07/14</vuln_publication_date>
+<xref>OSVDB:299</xref>
+<plugin_output>
+The following shares can be accessed as lbbiwmgm :
+
+- filez  - (readable)
+  + Content of this share :
+..
+test.txt
+troubleshooting.pcap
+
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10860" pluginName="SMB Use Host SID to Enumerate Local Users" pluginFamily="Windows : User management">
+<cvss_temporal_vector>CVSS2#E:H/RL:U/RC:C</cvss_temporal_vector>
+<description>Using the host security identifier (SID), it is possible to enumerate local users on the remote Windows system.</description>
+<exploit_available>true</exploit_available>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_sid2localuser.nasl</fname>
+<plugin_modification_date>2011/09/15</plugin_modification_date>
+<plugin_name>SMB Use Host SID to Enumerate Local Users</plugin_name>
+<plugin_publication_date>2002/02/13</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>It is possible to enumerate local users.</synopsis>
+<vuln_publication_date>1998/04/28</vuln_publication_date>
+<plugin_output>
+  - Administrator (id 500, Administrator account)
+  - Guest (id 501, Guest account)
+  - HelpAssistant (id 1000)
+  - HelpServicesGroup (id 1001)
+  - SUPPORT_388945a0 (id 1002)
+  - winxpPro (id 1003)
+
+Note that, in addition to the Administrator and Guest accounts, Nessus
+has enumerated only those local users with IDs between 1000 and 1200.
+To use a different range, edit the scan policy and change the &apos;Start
+UID&apos; and/or &apos;End UID&apos; preferences for this plugin, then re-run the
+scan.
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="4" pluginID="18502" pluginName="MS05-027: Vulnerability in SMB Could Allow Remote Code Execution (896422) (uncredentialed check)" pluginFamily="Windows">
+<bid>13942</bid>
+<cve>CVE-2005-1206</cve>
+<cvss_base_score>10.0</cvss_base_score>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C</cvss_vector>
+<description>The remote version of Windows contains a flaw in the Server Message Block (SMB) implementation that may allow an attacker to execute arbitrary code on the remote host. 
+
+An attacker does not need to be authenticated to exploit this flaw.</description>
+<exploit_available>true</exploit_available>
+<exploit_framework_core>true</exploit_framework_core>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_kb896422.nasl</fname>
+<msft>MS05-027</msft>
+<osvdb>17308</osvdb>
+<patch_publication_date>2005/06/14</patch_publication_date>
+<plugin_modification_date>2012/04/19</plugin_modification_date>
+<plugin_name>MS05-027: Vulnerability in SMB Could Allow Remote Code Execution (896422) (uncredentialed check)</plugin_name>
+<plugin_publication_date>2005/06/16</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>Critical</risk_factor>
+<solution>Microsoft has released a set of patches for Windows 2000, XP and 2003 :
+
+http://technet.microsoft.com/en-us/security/bulletin/ms05-027</solution>
+<synopsis>Arbitrary code can be executed on the remote host due to a flaw in the SMB implementation.</synopsis>
+<vuln_publication_date>2005/06/15</vuln_publication_date>
+<xref>OSVDB:17308</xref>
+<xref>MSFT:MS05-027</xref>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10859" pluginName="Microsoft Windows SMB LsaQueryInformationPolicy Function SID Enumeration" pluginFamily="Windows">
+<cvss_temporal_vector>CVSS2#E:H/RL:U/RC:C</cvss_temporal_vector>
+<description>By emulating the call to LsaQueryInformationPolicy(), it was possible to obtain the host SID (Security Identifier). 
+
+The host SID can then be used to get the list of local users.</description>
+<exploit_available>true</exploit_available>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_host2sid.nasl</fname>
+<plugin_modification_date>2011/09/15</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB LsaQueryInformationPolicy Function SID Enumeration</plugin_name>
+<plugin_publication_date>2002/02/13</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<see_also>http://technet.microsoft.com/en-us/library/bb418944.aspx</see_also>
+<solution>You can prevent anonymous lookups of the host SID by setting the &apos;RestrictAnonymous&apos; registry setting to an appropriate value. 
+
+Refer to the &apos;See also&apos; section for guidance.</solution>
+<synopsis>It is possible to obtain the host SID for the remote host.</synopsis>
+<vuln_publication_date>2000/01/31</vuln_publication_date>
+<plugin_output>
+The remote host SID value is :
+
+1-5-21-1220945662-1801674531-839522115
+
+The value of &apos;RestrictAnonymous&apos; setting is : unknown
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10428" pluginName="Microsoft Windows SMB Fully Accessible Registry Detection" pluginFamily="Windows">
+<description>Nessus did not access the remote registry completely, because this needs to be logged in as administrator.
+
+If you want the permissions / values of all the sensitive registry keys to be checked for, we recommend that you fill the &apos;SMB Login&apos; options in the &apos;Windows credentials&apos; section of the policy by the administrator login name and password.</description>
+<fname>smb_registry_full_access.nasl</fname>
+<plugin_modification_date>2011/03/04</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Fully Accessible Registry Detection</plugin_name>
+<plugin_publication_date>2000/05/29</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>Use an administrator level account for scanning.</solution>
+<synopsis>Nessus had insufficient access to the remote registry.</synopsis>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10400" pluginName="Microsoft Windows SMB Registry Remotely Accessible" pluginFamily="Windows">
+<description>It was possible to access the remote Windows Registry using the login / password combination used for the Windows local checks (SMB tests).</description>
+<fname>smb_registry_access.nasl</fname>
+<plugin_modification_date>2011/06/28</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Registry Remotely Accessible</plugin_name>
+<plugin_publication_date>2000/05/09</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>Access the remote Windows Registry.</synopsis>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10395" pluginName="Microsoft Windows SMB Shares Enumeration" pluginFamily="Windows">
+<description>By connecting to the remote host, Nessus was able to enumerate the network share names.</description>
+<fname>smb_enum_shares.nasl</fname>
+<plugin_modification_date>2011/09/14</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Shares Enumeration</plugin_name>
+<plugin_publication_date>2000/05/09</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>N/A</solution>
+<synopsis>It is possible to enumerate remote network shares.</synopsis>
+<plugin_output>
+Here are the SMB shares available on the remote host when logged as lbbiwmgm:
+
+  - IPC$
+  - filez
+  - ADMIN$
+  - C$
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10397" pluginName="Microsoft Windows SMB LanMan Pipe Server Listing Disclosure" pluginFamily="Windows">
+<description>It was possible to obtain the browse list of the remote Windows system by sending a request to the LANMAN pipe.  The browse list is the list of the nearest Windows systems of the remote host.</description>
+<fname>smb_lanman_browse_list.nasl</fname>
+<osvdb>300</osvdb>
+<plugin_modification_date>2011/09/14</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB LanMan Pipe Server Listing Disclosure</plugin_name>
+<plugin_publication_date>2000/05/09</plugin_publication_date>
+<plugin_type>local</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>It is possible to obtain network information.</synopsis>
+<vuln_publication_date>2000/01/01</vuln_publication_date>
+<xref>OSVDB:300</xref>
+<plugin_output>
+Here is the browse list of the remote host : 
+
+WINXP-95C9409AB ( os : 5.1 )
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="4" pluginID="35362" pluginName="MS09-001: Microsoft Windows SMB Vulnerabilities Remote Code Execution (958687) (uncredentialed check)" pluginFamily="Windows">
+<bid>31179</bid>
+<bid>33121</bid>
+<bid>33122</bid>
+<cve>CVE-2008-4834</cve>
+<cve>CVE-2008-4835</cve>
+<cve>CVE-2008-4114</cve>
+<cvss_base_score>10.0</cvss_base_score>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C</cvss_vector>
+<description>The remote host is affected by a memory corruption vulnerability in SMB that may allow an attacker to execute arbitrary code or perform a denial of service against the remote host.</description>
+<fname>smb_kb958687.nbin</fname>
+<msft>MS09-001</msft>
+<osvdb>48153</osvdb>
+<osvdb>52691</osvdb>
+<osvdb>52692</osvdb>
+<patch_publication_date>2009/01/13</patch_publication_date>
+<plugin_modification_date>2012/03/08</plugin_modification_date>
+<plugin_name>MS09-001: Microsoft Windows SMB Vulnerabilities Remote Code Execution (958687) (uncredentialed check)</plugin_name>
+<plugin_publication_date>2009/01/13</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Critical</risk_factor>
+<solution>Microsoft has released a set of patches for Windows 2000, XP, 2003, Vista and 2008 :
+
+http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx</solution>
+<synopsis>It is possible to crash the remote host due to a flaw in SMB.</synopsis>
+<vuln_publication_date>2008/09/14</vuln_publication_date>
+<xref>OSVDB:48153</xref>
+<xref>OSVDB:52691</xref>
+<xref>OSVDB:52692</xref>
+<xref>MSFT:MS09-001</xref>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="2" pluginID="26920" pluginName="Microsoft Windows SMB NULL Session Authentication" pluginFamily="Windows">
+<bid>494</bid>
+<cve>CVE-1999-0519</cve>
+<cve>CVE-1999-0520</cve>
+<cve>CVE-2002-1117</cve>
+<cvss_base_score>5.0</cvss_base_score>
+<cvss_temporal_score>4.2</cvss_temporal_score>
+<cvss_temporal_vector>CVSS2#E:U/RL:U/RC:ND</cvss_temporal_vector>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:P/I:N/A:N</cvss_vector>
+<description>The remote host is running Microsoft Windows. It is possible to log into it using a NULL session (i.e., with no login or password).
+
+Depending on the configuration, it may be possible for an unauthenticated, remote attacker to leverage this issue to get information about the remote host.</description>
+<exploit_available>false</exploit_available>
+<exploitability_ease>No known exploits are available</exploitability_ease>
+<fname>smb_null_session.nasl</fname>
+<osvdb>299</osvdb>
+<osvdb>8230</osvdb>
+<plugin_modification_date>2012/02/29</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB NULL Session Authentication</plugin_name>
+<plugin_publication_date>2007/10/04</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Medium</risk_factor>
+<see_also>http://support.microsoft.com/kb/q143474/
+http://support.microsoft.com/kb/q246261/
+http://technet.microsoft.com/en-us/library/cc785969(WS.10).aspx</see_also>
+<solution>Apply the following registry changes per the referenced Technet advisories :
+
+Set : 
+ - HKLM\SYSTEM\CurrentControlSet\Control\LSA\RestrictAnonymous=1
+ - HKLM\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters\restrictnullsessaccess=1
+
+Remove BROWSER from :
+ - HKLM\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters\NullSessionPipes
+
+Reboot once the registry changes are complete.</solution>
+<synopsis>It is possible to log into the remote Windows host with a NULL session.</synopsis>
+<vuln_publication_date>1999/07/14</vuln_publication_date>
+<xref>OSVDB:299</xref>
+<xref>OSVDB:8230</xref>
+<plugin_output>It was possible to bind to the \browser pipe</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="2" pluginID="26919" pluginName="Microsoft Windows SMB Guest Account Local User Access" pluginFamily="Windows">
+<cve>CVE-1999-0505</cve>
+<cvss_base_score>5.0</cvss_base_score>
+<cvss_vector>CVSS2#AV:N/AC:L/Au:N/C:P/I:N/A:N</cvss_vector>
+<description>The remote host is running one of the Microsoft Windows operating systems.  It was possible to log into it as a guest user using a random account.</description>
+<fname>smb_guest_account.nasl</fname>
+<plugin_modification_date>2011/03/21</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Guest Account Local User Access</plugin_name>
+<plugin_publication_date>2007/10/04</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>Medium</risk_factor>
+<solution>In the group policy change the setting for &apos;Network access: Sharing and security model for local accounts&apos; from &apos;Guest only - local users authenticate as Guest&apos; to &apos;Classic - local users authenticate as themselves&apos;.</solution>
+<synopsis>It is possible to log into the remote host.</synopsis>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10394" pluginName="Microsoft Windows SMB Log In Possible" pluginFamily="Windows">
+<description>The remote host is running Microsoft Windows operating system or Samba, a CIFS/SMB server for Unix.  It was possible to log into it using one of the following accounts :
+
+- NULL session
+- Guest account
+- Given Credentials</description>
+<exploit_available>true</exploit_available>
+<exploit_framework_metasploit>true</exploit_framework_metasploit>
+<exploitability_ease>Exploits are available</exploitability_ease>
+<fname>smb_login.nasl</fname>
+<metasploit_name>Microsoft Windows Authenticated User Code Execution</metasploit_name>
+<plugin_modification_date>2012/03/06</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Log In Possible</plugin_name>
+<plugin_publication_date>2000/05/09</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<see_also>http://support.microsoft.com/support/kb/articles/Q143/4/74.ASP
+http://support.microsoft.com/support/kb/articles/Q246/2/61.ASP</see_also>
+<solution>n/a</solution>
+<synopsis>It is possible to log into the remote host.</synopsis>
+<vuln_publication_date>1999/01/01</vuln_publication_date>
+<plugin_output>- NULL sessions are enabled on the remote host
+- Remote users are authenticated as &apos;Guest&apos;
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10785" pluginName="Microsoft Windows SMB NativeLanManager Remote System Information Disclosure" pluginFamily="Windows">
+<description>It is possible to get the remote operating system name and version (Windows and/or Samba) by sending an authentication request to port 139 or 445.</description>
+<fname>smb_nativelanman.nasl</fname>
+<plugin_modification_date>2011/03/17</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB NativeLanManager Remote System Information Disclosure</plugin_name>
+<plugin_publication_date>2001/10/17</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>It is possible to obtain information about the remote operating system.</synopsis>
+<plugin_output>The remote Operating System is : Windows 5.1
+The remote native lan manager is : Windows 2000 LAN Manager
+The remote SMB Domain Name is : WINXP-95C9409AB
+</plugin_output>
+</ReportItem>
+<ReportItem port="137" svc_name="netbios-ns" protocol="udp" severity="0" pluginID="10150" pluginName="Windows NetBIOS / SMB Remote Host Information Disclosure" pluginFamily="Windows">
+<description>The remote host listens on UDP port 137 or TCP port 445 and replies to NetBIOS nbtscan or SMB requests. 
+
+Note that this plugin gathers information to be used in other plugins but does not itself generate a report.</description>
+<fname>netbios_name_get.nasl</fname>
+<plugin_modification_date>2012/02/10</plugin_modification_date>
+<plugin_name>Windows NetBIOS / SMB Remote Host Information Disclosure</plugin_name>
+<plugin_publication_date>1999/10/12</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>It is possible to obtain the network name of the remote host.</synopsis>
+<plugin_output>The following 6 NetBIOS names have been gathered :
+
+ WINXP-95C9409AB  = Computer name
+ WORKGROUP        = Workgroup / Domain name
+ WINXP-95C9409AB  = File Server Service
+ WORKGROUP        = Browser Service Elections
+ WORKGROUP        = Master Browser
+ __MSBROWSE__     = Master Browser
+
+The remote host has the following MAC address on its adapter :
+   52:54:00:00:ee:5c</plugin_output>
+</ReportItem>
+<ReportItem port="139" svc_name="smb" protocol="tcp" severity="0" pluginID="11011" pluginName="Microsoft Windows SMB Service Detection" pluginFamily="Windows">
+<description>The remote service understands the CIFS (Common Internet File System) or Server Message Block (SMB) protocol, used to provide shared access to files, printers, etc between nodes on a network.</description>
+<fname>cifs445.nasl</fname>
+<plugin_modification_date>2012/01/31</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Service Detection</plugin_name>
+<plugin_publication_date>2002/06/05</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>A file / print sharing service is listening on the remote host.</synopsis>
+<plugin_output>
+An SMB server is running on this port.
+</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="11011" pluginName="Microsoft Windows SMB Service Detection" pluginFamily="Windows">
+<description>The remote service understands the CIFS (Common Internet File System) or Server Message Block (SMB) protocol, used to provide shared access to files, printers, etc between nodes on a network.</description>
+<fname>cifs445.nasl</fname>
+<plugin_modification_date>2012/01/31</plugin_modification_date>
+<plugin_name>Microsoft Windows SMB Service Detection</plugin_name>
+<plugin_publication_date>2002/06/05</plugin_publication_date>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>n/a</solution>
+<synopsis>A file / print sharing service is listening on the remote host.</synopsis>
+<plugin_output>
+A CIFS server is running on this port.
+</plugin_output>
+</ReportItem>
+<ReportItem port="3389" svc_name="msrdp" protocol="tcp" severity="0" pluginID="10335" pluginName="Nessus TCP scanner" pluginFamily="Port scanners">
+<description>This plugin is a classical TCP port scanner. It shall be reasonably quick even against a firewalled target.
+
+Once a TCP connection is open, it grabs any available banner for the service identification plugins.
+
+Note that TCP scanners are more intrusive than SYN (half open) scanners.</description>
+<fname>nessus_tcp_scanner.nbin</fname>
+<plugin_modification_date>2011/04/05</plugin_modification_date>
+<plugin_name>Nessus TCP scanner</plugin_name>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>Protect your target with an IP filter.</solution>
+<synopsis>It is possible to determine which TCP ports are open.</synopsis>
+<plugin_output>Port 3389/tcp was found to be open</plugin_output>
+</ReportItem>
+<ReportItem port="135" svc_name="epmap" protocol="tcp" severity="0" pluginID="10335" pluginName="Nessus TCP scanner" pluginFamily="Port scanners">
+<description>This plugin is a classical TCP port scanner. It shall be reasonably quick even against a firewalled target.
+
+Once a TCP connection is open, it grabs any available banner for the service identification plugins.
+
+Note that TCP scanners are more intrusive than SYN (half open) scanners.</description>
+<fname>nessus_tcp_scanner.nbin</fname>
+<plugin_modification_date>2011/04/05</plugin_modification_date>
+<plugin_name>Nessus TCP scanner</plugin_name>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>Protect your target with an IP filter.</solution>
+<synopsis>It is possible to determine which TCP ports are open.</synopsis>
+<plugin_output>Port 135/tcp was found to be open</plugin_output>
+</ReportItem>
+<ReportItem port="445" svc_name="cifs" protocol="tcp" severity="0" pluginID="10335" pluginName="Nessus TCP scanner" pluginFamily="Port scanners">
+<description>This plugin is a classical TCP port scanner. It shall be reasonably quick even against a firewalled target.
+
+Once a TCP connection is open, it grabs any available banner for the service identification plugins.
+
+Note that TCP scanners are more intrusive than SYN (half open) scanners.</description>
+<fname>nessus_tcp_scanner.nbin</fname>
+<plugin_modification_date>2011/04/05</plugin_modification_date>
+<plugin_name>Nessus TCP scanner</plugin_name>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>Protect your target with an IP filter.</solution>
+<synopsis>It is possible to determine which TCP ports are open.</synopsis>
+<plugin_output>Port 445/tcp was found to be open</plugin_output>
+</ReportItem>
+<ReportItem port="139" svc_name="smb" protocol="tcp" severity="0" pluginID="10335" pluginName="Nessus TCP scanner" pluginFamily="Port scanners">
+<description>This plugin is a classical TCP port scanner. It shall be reasonably quick even against a firewalled target.
+
+Once a TCP connection is open, it grabs any available banner for the service identification plugins.
+
+Note that TCP scanners are more intrusive than SYN (half open) scanners.</description>
+<fname>nessus_tcp_scanner.nbin</fname>
+<plugin_modification_date>2011/04/05</plugin_modification_date>
+<plugin_name>Nessus TCP scanner</plugin_name>
+<plugin_type>remote</plugin_type>
+<risk_factor>None</risk_factor>
+<solution>Protect your target with an IP filter.</solution>
+<synopsis>It is possible to determine which TCP ports are open.</synopsis>
+<plugin_output>Port 139/tcp was found to be open</plugin_output>
+</ReportItem>
+</ReportHost>
+</Report>
+</NessusClientData_v2>

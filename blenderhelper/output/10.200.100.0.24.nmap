@@ -1,0 +1,35 @@
+# Nmap 5.51 scan initiated Sun Jul 29 11:11:20 2012 as: nmap --traceroute -oA ./output/10.200.100.0.24 10.200.100.0/24
+Nmap scan report for 10.200.100.1
+Host is up (0.000031s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap scan report for 10.200.100.7
+Host is up (0.0049s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-term-serv
+MAC Address: 52:54:00:00:EE:5C (QEMU Virtual NIC)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.89 ms 10.200.100.7
+
+Nmap scan report for 10.200.100.8
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+2222/tcp open  EtherNet/IP-1
+MAC Address: 52:54:00:00:FF:05 (QEMU Virtual NIC)
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   26.94 ms 10.200.100.8
+
+# Nmap done at Sun Jul 29 11:11:25 2012 -- 256 IP addresses (3 hosts up) scanned in 4.76 seconds

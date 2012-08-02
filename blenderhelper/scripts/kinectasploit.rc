@@ -1,0 +1,3 @@
+load msgrpc User=msf Pass='abc123'
+db_connect msf_user:msf@127.0.0.1:5432/msf_database
+hosts -d

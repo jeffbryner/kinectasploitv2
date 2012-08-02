@@ -1,0 +1,8 @@
+# Nmap 5.51 scan initiated Sun Jul 29 11:11:20 2012 as: nmap --traceroute -oA ./output/10.200.100.0.24 10.200.100.0/24
+Host: 10.200.100.1 ()	Status: Up
+Host: 10.200.100.1 ()	Ports: 53/open/tcp//domain///	Ignored State: closed (999)
+Host: 10.200.100.7 ()	Status: Up
+Host: 10.200.100.7 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3389/open/tcp//ms-term-serv///	Ignored State: closed (996)
+Host: 10.200.100.8 ()	Status: Up
+Host: 10.200.100.8 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 2222/open/tcp//EtherNet|IP-1///	Ignored State: closed (997)
+# Nmap done at Sun Jul 29 11:11:25 2012 -- 256 IP addresses (3 hosts up) scanned in 4.76 seconds
